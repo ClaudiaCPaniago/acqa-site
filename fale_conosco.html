@@ -20,7 +20,57 @@
       <img src="/imagens/uniube.png" alt="Logotipo da Uniube">
     </a>
   </header>
-  <h1>Fale conosco</h1>
+  <div class="container-faleconosco">
+    <form>
+      <h1>Fale Conosco</h1>
+      <p>Queremos saber mais sobre o seu gosto literário! Preencha o formulário abaixo.</p>
+
+      <div class="grupo">
+        <h3>Qual o seu nome?</h3>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+      </div>
+
+      <div class="grupo">
+        <h3>Qual seu gênero literário favorito?</h3>
+        <div class="checkbox-container">
+          <input type="checkbox" id="romance" name="genero[]" value="Romance">
+          <label for="romance">Romance</label>
+
+          <input type="checkbox" id="fantasia" name="genero[]" value="Fantasia">
+          <label for="fantasia">Fantasia</label>
+
+          <input type="checkbox" id="desenvolvimento" name="genero[]" value="Desenvolvimento Pessoal">
+          <label for="desenvolvimento">Desenvolvimento Pessoal</label>
+
+          <input type="checkbox" id="terror" name="genero[]" value="Terror">
+          <label for="terror">Terror</label>
+        </div>
+      </div>
+
+      <div class="grupo">
+        <h3>Qual seu formato de livro favorito?</h3>
+        <div class="radio-container">
+          <input type="radio" id="fisico" name="formato" value="fisico" required>
+          <label for="fisico">Físico</label>
+
+          <input type="radio" id="digital" name="formato" value="digital">
+          <label for="digital">Digital</label>
+        </div>
+      </div>
+
+      <div class="grupo">
+        <h3>Sugestão de Leitura:</h3>
+        <textarea id="sugestao" name="sugestao" rows="5" cols="40" placeholder="Indique um livro que você recomenda!"></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+
+    </form>
+    <div class="container-img">
+      <img class="img-faleconosco" src="/imagens/book 1.png" alt="imagem de livro">
+    </div>
+  </div>
+
+
   <footer>
     <nav>
       <a href="index.html" target="_blank">Home</a>
