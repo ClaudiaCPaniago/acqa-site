@@ -1,3 +1,4 @@
+/* ========== ESTILOS GLOBAIS ========== */
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #080808;
+  color: #004080;
 }
 
 header img {
@@ -48,28 +49,75 @@ main {
   flex: 1;
 }
 
-.container-links {
-  margin: 25px;
-  padding: 20px;
-  border-radius: 8px;
-}
-
 h1 {
   margin: 25px;
   text-align: center;
   color: #d46a73;
 }
-
 h2 {
   font-size: 1.8rem;
-  color: #333;
+  color: #d46a73;
   margin: 30px 0px;
   text-align: center;
 }
 
 p {
-  /* text-align: center; */
   font-size: 14px;
+}
+
+footer {
+  background-color: #f2bbbf;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: auto;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #004080;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* ========== PÁGINA INDEX.HTML ========== */
+.titulo-index {
+  color: #004080;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.body-index {
+  background-image: url(/imagens/bookstore.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ========== PÁGINA LINKS.HTML ========== */
+
+.container-links {
+  margin: 25px;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 ul {
@@ -111,7 +159,7 @@ ul ul li {
   background-color: #f9f9f9;
   margin-left: 20px;
 }
-
+/* ========== PÁGINA FALE_CONOSCO.HTML ========== */
 .container-faleconosco {
   display: flex;
   align-items: center;
@@ -200,33 +248,37 @@ button:hover {
 .img-faleconosco {
   max-width: 100%;
 }
-footer {
-  background-color: #f2bbbf;
-  color: white;
-  text-align: center;
-  padding: 25px 0;
-  margin-top: auto;
+
+/* ========== PÁGINA IMAGENS.HTML ========== */
+
+.titulo-generos {
+  text-align: left;
+}
+.main-imagens {
+  padding: 20px;
 }
 
-footer nav {
+.genero {
+  margin-bottom: 40px;
+}
+
+.galeria {
   display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 10px;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
-footer a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: 0.3s;
+figure {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 150px;
 }
 
-footer a:hover {
-  color: #080808;
-}
-
-footer p {
-  margin-top: 10px;
-  font-size: 14px;
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
