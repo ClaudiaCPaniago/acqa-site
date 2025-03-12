@@ -114,10 +114,31 @@ footer p {
 
 /* ========== PÁGINA LINKS.HTML ========== */
 
+.contan-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .container-links {
+  flex: 1;
   margin: 25px;
   padding: 20px;
   border-radius: 8px;
+}
+
+.container-img-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+
+.img-links {
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -159,6 +180,16 @@ ul ul li {
   background-color: #f9f9f9;
   margin-left: 20px;
 }
+
+.container-img-links {
+  display: flex;
+  justify-content: right;
+  align-content: center;
+}
+
+.img-links {
+}
+
 /* ========== PÁGINA FALE_CONOSCO.HTML ========== */
 .container-faleconosco {
   display: flex;
