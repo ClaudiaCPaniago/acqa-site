@@ -3,6 +3,27 @@
 ## Sobre o Projeto
 Este projeto foi desenvolvido como parte da disciplina **Tecnologias para a Internet** da **Uniube**. O objetivo é aplicar os conhecimentos adquiridos durante as semanas 1 a 4, criando um site simples utilizando **HTML**.
 
+## Screenshot
+
+### ✅ index.html
+![preview](imagens/preview/index.png)
+
+<br>
+
+
+### ✅ links.html
+![preview](imagens/preview/links.png)
+
+<br>
+
+### ✅ imagens.html
+![preview](imagens/preview/imagens.png)
+
+<br>
+
+### ✅ fale_conosco.html
+![preview](imagens/preview/faleconosco.png)
+
 ## Estrutura do Projeto
 O projeto está organizado da seguinte forma:
 
