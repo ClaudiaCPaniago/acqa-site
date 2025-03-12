@@ -3,7 +3,7 @@
 ## Sobre o Projeto
 Este projeto foi desenvolvido como parte da disciplina **Tecnologias para a Internet** da **Uniube**. O objetivo é aplicar os conhecimentos adquiridos durante as semanas 1 a 4, criando um site simples utilizando **HTML**.
 
-## Screenshot
+## Screenshots
 
 ### ✅ index.html
 ![preview](imagens/preview/index.png)
