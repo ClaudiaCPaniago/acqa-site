@@ -98,14 +98,20 @@ footer p {
 
 /* ========== PÁGINA INDEX.HTML ========== */
 .titulo-index {
-  color: #004080;
+  color: white;
   font-size: 2.4rem;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 50px;
+  text-align: center;
+  padding-left: 175px;
+}
+
+.titulo-index:hover {
+  color: black;
 }
 
 .body-index {
-  background-image: url(/imagens/bookstore.jpg);
+  background-image: url(/imagens/6b8c0a3c-18e2-4692-87d8-e9d3a5471218.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
