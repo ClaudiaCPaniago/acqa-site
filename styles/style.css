@@ -163,7 +163,7 @@ ul li {
   transition: background-color 0.3s ease;
 }
 
-ol li a,
+li a,
 ul li a {
   text-decoration: none;
   color: #004080;
@@ -172,17 +172,17 @@ ul li a {
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-ol li:hover,
+li:hover,
 ul li:hover {
   background-color: #e6f7ff;
 }
 
-ol li a:hover,
+li a:hover,
 ul li a:hover {
   color: #d46a73;
 }
 
-ul ul li {
+ul li {
   background-color: #f9f9f9;
   margin-left: 20px;
 }
@@ -318,4 +318,23 @@ figure img {
   width: 100%;
   height: auto;
   border-radius: 5px;
+}
+
+.container-dica {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  padding: 25px 40px;
+  margin: 0 auto;
+  width: 650px;
+  height: 260px;
+}
+
+ol {
+  margin-right: 20px;
+}
+
+ol li {
+  margin-bottom: 15px;
 }
